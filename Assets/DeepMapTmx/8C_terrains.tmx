@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="22" height="31" tilewidth="512" tileheight="512" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="CT_01" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_01.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2" name="CT_02" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_02.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3" name="CT_03" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_03.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4" name="CT_04" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_04.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5" name="CT_05" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_05.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6" name="CT_06" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_06.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7" name="CT_07" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_07.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="8" name="CT_08" tilewidth="512" tileheight="512" tilecount="1" columns="1">
+  <image source="terrains/Controltexture_08.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="图块层 1" width="22" height="31">
+  <data encoding="csv">
+2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,
+2,2,1,2,1,1,2,2,1,1,2,1,2,1,1,2,1,2,1,1,2,2,
+5,2,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,2,5,
+2,5,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,5,2,
+5,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,2,5,
+2,2,5,4,4,5,5,5,5,5,5,5,5,5,5,5,4,4,3,2,5,2,
+5,2,5,4,4,3,3,3,3,3,3,3,3,3,3,2,4,4,3,5,2,5,
+2,5,5,4,4,2,2,2,2,2,2,2,2,2,2,2,4,4,3,2,5,2,
+5,2,5,5,5,4,4,5,5,5,5,5,5,5,4,4,5,3,2,2,5,5,
+2,5,5,3,2,4,4,3,3,3,3,3,3,3,4,4,5,3,5,5,2,2,
+5,2,5,3,5,5,5,4,4,5,2,3,3,5,5,5,3,3,2,2,5,5,
+2,5,5,3,2,2,5,4,4,2,3,2,3,3,2,2,3,3,5,5,2,2,
+5,2,5,3,2,2,5,4,4,3,3,3,5,3,3,3,3,3,2,2,5,5,
+2,5,5,3,2,2,5,5,5,4,4,4,5,3,2,3,3,3,5,5,2,2,
+5,2,3,2,3,3,3,2,5,4,4,4,5,2,3,3,3,3,2,2,5,5,
+2,5,2,2,3,3,3,2,5,4,4,4,5,3,3,3,2,2,2,2,5,2,
+5,2,2,2,3,3,3,2,5,4,4,4,5,3,3,3,3,3,5,5,5,5,
+2,5,2,2,3,3,3,2,5,4,4,4,5,5,3,2,3,3,2,2,2,2,
+5,2,2,2,3,3,3,2,5,5,5,5,4,4,3,2,3,2,2,5,5,5,
+2,5,2,3,2,5,5,3,2,2,2,5,4,4,5,3,3,3,5,2,2,2,
+5,2,2,3,5,4,4,2,2,2,2,5,5,5,4,4,3,3,2,2,5,5,
+5,5,3,3,5,4,4,5,2,2,2,2,2,5,4,4,5,2,5,5,2,2,
+2,5,3,5,5,4,4,2,2,2,2,2,2,5,4,4,3,3,2,2,5,5,
+5,2,3,4,4,5,5,5,5,5,5,5,5,5,5,5,4,4,5,5,2,2,
+2,5,3,4,4,3,3,3,3,3,3,3,3,3,3,2,4,4,2,2,5,5,
+5,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,5,5,2,2,
+2,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,2,2,5,5,
+5,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,
+2,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+ </layer>
+ <imagelayer id="2" name="Image Layer 1" visible="0">
+  <image source="terrains/8C_a.png" width="10766" height="15600"/>
+ </imagelayer>
+</map>

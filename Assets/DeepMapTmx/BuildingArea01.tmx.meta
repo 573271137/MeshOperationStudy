@@ -1,0 +1,53 @@
+fileFormatVersion: 2
+guid: 9df654d78dfe044f9bfabb420e510705
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'desert' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'snow' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'units' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'footer' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'th1' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'th2' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'note' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'water' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'z_wm_dx_01' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'z_wm_dx_02' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'z_wm_dx_03' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'z_wm_dx_04' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'z_wm_dx_05' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'note' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 24
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 540
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

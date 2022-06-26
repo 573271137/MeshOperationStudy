@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="staggered" renderorder="left-up" width="6" height="14" tilewidth="160" tileheight="116" infinite="0" staggeraxis="y" staggerindex="odd" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" name="note" tilewidth="160" tileheight="116" tilecount="4" columns="4">
+  <image source="tiles/note.png" width="650" height="120"/>
+ </tileset>
+ <imagelayer id="2" name="Image Layer 1" offsetx="80" offsety="174">
+  <image source="mountain/mountainItem9.png" width="700" height="590"/>
+ </imagelayer>
+ <layer id="6" name="物体" width="6" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,1,0,0,0,
+0,1,1,0,0,0,
+0,0,1,1,0,0,
+0,1,1,0,0,0,
+0,1,1,1,0,0,
+1,1,1,1,0,0,
+0,1,1,1,1,0,
+1,1,1,1,0,0,
+1,1,1,1,1,0,
+1,1,1,0,0,0,
+0,1,1,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+</map>

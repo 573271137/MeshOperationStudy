@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="staggered" renderorder="left-up" width="3" height="10" tilewidth="160" tileheight="116" infinite="0" staggeraxis="y" staggerindex="odd" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" name="note" tilewidth="160" tileheight="116" tilecount="4" columns="4">
+  <image source="tiles/note.png" width="650" height="120"/>
+ </tileset>
+ <imagelayer id="7" name="图像图层 1" offsetx="80" offsety="58">
+  <image source="mountain/mountainItem15.png" width="400" height="500"/>
+ </imagelayer>
+ <layer id="1" name="物体" width="3" height="10">
+  <data encoding="csv">
+0,1,0,
+1,1,0,
+1,1,1,
+1,1,0,
+0,1,1,
+1,1,1,
+0,1,1,
+0,1,1,
+0,0,1,
+0,0,0
+</data>
+ </layer>
+</map>

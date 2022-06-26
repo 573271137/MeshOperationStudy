@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="staggered" renderorder="left-up" compressionlevel="0" width="10" height="20" tilewidth="160" tileheight="116" infinite="0" staggeraxis="y" staggerindex="odd" backgroundcolor="#86a349" nextlayerid="3418" nextobjectid="1">
+ <tileset firstgid="1" name="desert" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/desert.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="desert" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="16" name="snow" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/snow.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="snow" type="corner" tile="-1">
+    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
+    <wangtile tileid="0" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="1" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="2" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="3" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="4" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="5" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="6" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="7" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="8" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="9" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="10" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="11" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="12" wangid="0,0,0,1,0,0,0,1"/>
+    <wangtile tileid="13" wangid="0,1,0,0,0,1,0,0"/>
+    <wangtile tileid="14" wangid="0,1,0,1,0,1,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="31" name="units" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="64" columns="8">
+  <image source="tiles/units.png" width="1298" height="946"/>
+ </tileset>
+ <tileset firstgid="95" name="footer" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="30" columns="3">
+  <image source="tiles/footer.png" width="488" height="1182"/>
+ </tileset>
+ <tileset firstgid="125" name="th1" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="30" columns="6">
+  <image source="tiles/th1.png" width="974" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="155" name="th2" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/th2.png" width="488" height="593"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="th2" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="170" name="note" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="4" columns="4">
+  <image source="tiles/note.png" width="650" height="120"/>
+ </tileset>
+ <tileset firstgid="174" name="water" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/water.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="water" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="189" name="z_wm_dx_01" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/z_wm_dx_01.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="z_wm_dx_01" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="204" name="z_wm_dx_02" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/z_wm_dx_02.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="z_wm_dx_02" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="219" name="z_wm_dx_03" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/z_wm_dx_03.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="z_wm_dx_03" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="234" name="z_wm_dx_04" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="15" columns="3">
+  <image source="tiles/z_wm_dx_04.png" width="488" height="592"/>
+  <wangsets>
+   <wangset name="地形" type="mixed" tile="-1"/>
+   <wangset name="z_wm_dx_04" type="mixed" tile="-1"/>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="249" name="z_wm_dx_05" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="3" columns="3">
+  <image source="tiles/z_wm_dx_05.png" width="488" height="120"/>
+ </tileset>
+ <tileset firstgid="252" name="note" tilewidth="160" tileheight="116" spacing="2" margin="2" tilecount="4" columns="4">
+  <image source="../CrossServerMap/tiles/note.png" width="650" height="120"/>
+ </tileset>
+ <layer id="3415" name="Area" width="10" height="20">
+  <data encoding="csv">
+0,0,0,0,0,171,0,0,0,0,
+0,0,0,0,171,171,0,0,0,0,
+0,0,0,0,171,171,171,0,0,0,
+0,0,0,171,171,171,171,0,0,0,
+0,0,0,171,171,171,171,171,0,0,
+0,0,171,171,171,171,171,171,0,0,
+0,0,171,171,171,171,171,171,171,0,
+0,171,171,171,171,171,171,171,171,0,
+0,171,171,171,171,171,171,171,171,171,
+171,171,171,171,171,171,171,171,171,171,
+0,171,171,171,171,171,171,171,171,171,
+0,171,171,171,171,171,171,171,171,0,
+0,0,171,171,171,171,171,171,171,0,
+0,0,171,171,171,171,171,171,0,0,
+0,0,0,171,171,171,171,171,0,0,
+0,0,0,171,171,171,171,0,0,0,
+0,0,0,0,171,171,171,0,0,0,
+0,0,0,0,171,171,0,0,0,0,
+0,0,0,0,0,171,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3412" name="NOTE_1" width="10" height="20" visible="0" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3413" name="NOTE_2" width="10" height="20" visible="0" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,170,170,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3414" name="NOTE_3" width="10" height="20" visible="0" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,170,170,0,0,0,0,
+0,0,0,0,170,170,170,0,0,0,
+0,0,0,0,170,170,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3417" name="NOTE_4" width="10" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,170,170,0,0,0,0,
+0,0,0,0,170,170,170,0,0,0,
+0,0,0,170,170,170,170,0,0,0,
+0,0,0,0,170,170,170,0,0,0,
+0,0,0,0,170,170,0,0,0,0,
+0,0,0,0,0,170,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3416" name="装饰" width="10" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,95,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,97,0,0,0,0,0,
+0,0,0,0,0,0,102,0,0,0,
+0,0,0,115,0,0,0,0,0,0,
+0,0,0,0,0,0,0,103,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,103,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,95,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,102,0,0,0,97,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,114,0,0,0,0,0,
+0,0,0,0,0,103,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

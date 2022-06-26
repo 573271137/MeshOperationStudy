@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="staggered" renderorder="left-up" width="10" height="10" tilewidth="160" tileheight="116" infinite="0" staggeraxis="y" staggerindex="odd" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="note" tilewidth="160" tileheight="116" tilecount="4" columns="4">
+  <image source="../../../../../kight-client/Tools/DeepMapTmx/tiles/note.png" width="650" height="120"/>
+ </tileset>
+ <layer id="1" name="物体" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+1,1,0,0,0,0,0,0,0,0,
+1,1,1,0,0,0,0,0,0,0,
+1,1,1,0,0,0,0,0,0,0,
+1,1,1,1,0,0,0,0,0,0,
+1,1,1,1,0,0,0,0,0,0,
+1,1,1,1,0,0,0,0,0,0,
+1,1,1,1,0,0,0,0,0,0,
+0,1,1,1,0,0,0,0,0,0,
+0,1,1,1,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="2" name="Image Layer 1" locked="1" opacity="0.18">
+  <image source="mountain/mountain1.png" width="750" height="683"/>
+ </imagelayer>
+</map>
